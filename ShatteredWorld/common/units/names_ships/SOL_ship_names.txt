@@ -1,0 +1,162 @@
+﻿##### SOL NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+SOL_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { EQS }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+    can_use = { 
+        is_EQS_SOL = yes
+    }
+
+	prefix = "HMS "
+	fallback_name = "Destroyer No.%d"					
+
+	unique = {											
+		"Solar Flare"
+		"Sunrise"
+		"Sunshine"
+		"Light"
+		"Avenger"
+		"Flash"
+		"Noon"
+		"Daybreak"
+		"Illuminator"
+		"Templar"
+		"Brightest"
+		"Scorcher"
+		"Cleansing Light"
+		"Pyromancy"
+		"Enlightenment"
+		"God Ray"
+		"Purity"
+		"Golden Blessing"
+		"Radiance"
+		"Interstellar"
+	}
+}
+
+### LIGHT CRUISER / HEAVY CRUISER NAMES###
+SOL_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL_CA
+
+	for_countries = { EQS }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser heavy_cruiser }
+	
+    can_use = { 
+        is_EQS_SOL = yes
+    }
+
+	prefix = "HMS "
+	fallback_name = "Cruiser No.%d"
+
+	unique = {
+		"Brightfire"
+		"Searing Light"
+		"Prayer"
+		"Faith"
+		"Phoenix"
+		"Faithful"
+		"Sacrifice"
+		"Dutiful"
+		"Watchful"
+		"Dauntless"
+		"Blazing Hooves"
+	}
+}
+
+### BATTLESHIP / BATTLECRUISER NAMES ###
+SOL_BB_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB_BC
+
+	for_countries = { EQS }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship battle_cruiser}
+	
+    can_use = { 
+        is_EQS_SOL = yes
+    }
+
+	prefix = "HMS "
+	fallback_name = "Battleship No.%d"		
+
+	unique = {
+		"Harmony in Order"
+		"Ravager"
+		"Empress"
+		"Reaper"
+		"Eradicator"
+		"Exterminator"
+		"Vanquisher"
+		"Supernova"
+		"Immolator"
+		"Bismareck"
+		"Her Wrath"
+		"Imperator"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+SOL_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { EQS }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+    can_use = { 
+        is_EQS_SOL = yes
+    }
+
+	prefix = "HMS "
+	fallback_name = "Carrier No.%d"	
+
+	unique = {
+		"Immortal"
+		"Inquisitor"
+		"Solar Glory"
+		"Lord Protector"
+		"Punisher"
+		"Guardian of Harmony"
+		"Red Giant"
+		"Divine Wind"
+		"Friendmaker"
+	}
+}
+
+### SUBMARINES ###
+SOL_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { EQS }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+    can_use = { 
+        is_EQS_SOL = yes
+    }
+
+	prefix = "HMS "
+	fallback_name = "Submarine No.%d"
+	
+	unique = {
+		"Her Will"
+		"Hunter"
+		"Shadow of the Sun"
+		"In Plain Sight"
+		"Tidebreaker"
+		"Lurker"
+		"Sunfish"
+		"Spearfisher"
+		"Bright Kraken"
+		"Holy Diver"
+	}
+}

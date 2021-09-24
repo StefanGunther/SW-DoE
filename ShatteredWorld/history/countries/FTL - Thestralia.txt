@@ -1,0 +1,56 @@
+capital = 30
+
+set_research_slots = 3
+
+add_ideas = {
+	
+}
+
+set_technology = {
+	pony_race = 1
+	melee_weapons = 1
+	melee_weapons1 = 1
+	pre_gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+	gwtank = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	interwar_antitank = 1
+	gw_artillery = 1
+	tech_support = 1
+}
+
+set_convoys = 20
+set_popularities = {
+    despotism = 3
+    nationalism = 7
+	ultranationalism = 21
+	revanchism = 69
+}
+set_politics = {
+	ruling_party = revanchism
+	last_election = "1000.10.10"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Stefan Gunther"
+	picture = "StefanGunther.dds"
+	expire = "1965.1.1"
+	ideology = volkische
+	traits = {
+	}
+}
+
+create_field_marshal = {
+	name = "Stefan Gunther"
+	portrait_path = "StefanGunther.dds"
+	traits = {  }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}

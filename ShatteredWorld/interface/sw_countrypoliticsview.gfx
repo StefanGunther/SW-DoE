@@ -1,0 +1,74 @@
+spriteTypes = {
+
+    ### ideology
+	
+	spriteType = {
+		name = "GFX_ideology_marxism_stallionism_group"
+		texturefile = "gfx/interface/ideologies/marxism_stallionism_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_libertarian_socialism_group"
+		texturefile = "gfx/interface/ideologies/libertarian_socialism_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_progressivism_group"
+		texturefile = "gfx/interface/ideologies/progressivism_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_liberal_harmony_group"
+		texturefile = "gfx/interface/ideologies/liberal_harmony_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_conservative_harmony_group"
+		texturefile = "gfx/interface/ideologies/conservative_harmony_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_republicanism"
+		texturefile = "gfx/interface/ideologies/republicanism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_authoritarianism_group"
+		texturefile = "gfx/interface/ideologies/authoritarianism_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_despotism_group"
+		texturefile = "gfx/interface/ideologies/despotism_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_fascism_group"
+		texturefile = "gfx/interface/ideologies/fascism_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_nationalism_group"
+		texturefile = "gfx/interface/ideologies/nationalism_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_chauvinism_group"
+		texturefile = "gfx/interface/ideologies/chauvinism_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_anchornage_system_group"
+		texturefile = "gfx/interface/ideologies/anchornage_system_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_reformisten_group"
+		texturefile = "gfx/interface/ideologies/reformisten_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_revanchism_group"
+		texturefile = "gfx/interface/ideologies/revanchism_group.dds"
+	}
+}

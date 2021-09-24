@@ -1,0 +1,22 @@
+
+state={
+	id=17
+	name="STATE_17"
+	resources={
+		oil=15.000
+	}
+
+	history={
+		owner = FTL
+		add_core_of = FTL
+		add_core_of = DRG
+
+	}
+
+	provinces={
+		4476 6698 7590 7622 9309 9403 10374 11346 11360 12347
+	}
+	manpower=130
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}
