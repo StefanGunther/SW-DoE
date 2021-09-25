@@ -446,50 +446,7 @@ ideologies = {
 
 		ai_neutral = yes #
 	}
-
-	fascism = {
-		types = {
-			fascism_ideology = {
-			}
-			falangism = {
-			}
-		}
-
-		dynamic_faction_names = {
-			"FACTION_NAME_FASCIST_1"
-			"FACTION_NAME_FASCIST_2"
-			"FACTION_NAME_FASCIST_3"
-			"FACTION_NAME_FASCIST_4"
-			"FACTION_NAME_FASCIST_5"
-		}
-
-		color = { 129 96 64 }
-
-		war_impact_on_world_tension = 1.0			#evil!
-		faction_impact_on_world_tension = 1.0
-
-		rules = {
-			can_force_government = no
-			can_send_volunteers = yes
-			can_puppet = yes
-
-		}
-
-		can_collaborate = yes
-
-		modifiers = {
-			justify_war_goal_when_in_major_war_time = -0.80
-			send_volunteer_divisions_required = -0.25
-			civilian_intel_to_others = 15.0
-			army_intel_to_others = 10.0
-			navy_intel_to_others = 10.0
-			airforce_intel_to_others = 10.0
-			hidden_modifier = { join_faction_tension = -0.1 }
-		}
-		can_be_boosted = yes
-		ai_fascist = yes # uses the fascist AI behaviour
-	}
-
+	
 	nationalism = {
 		types = {
 		    nationalism_ideology = {
@@ -500,6 +457,10 @@ ideologies = {
 			}
 			bandit = {
 				can_be_randomly_selected = no
+			}
+			fascism_ideology = {
+			}
+			falangism = {
 			}
 		}
 
@@ -541,6 +502,9 @@ ideologies = {
 	chauvinism = {
 		types = {
 			ultranationalism = {
+			}
+			reformisten = {
+				can_be_randomly_selected = no
 			}
 		}
 
@@ -594,48 +558,6 @@ ideologies = {
 		}
 
 		color = { 68 169 194 }
-
-		war_impact_on_world_tension = 1.0			#evil!
-		faction_impact_on_world_tension = 1.0
-
-		rules = {
-			can_force_government = no
-			can_send_volunteers = yes
-			can_puppet = yes
-
-		}
-
-		can_collaborate = yes
-
-		modifiers = {
-			justify_war_goal_when_in_major_war_time = -0.80
-			send_volunteer_divisions_required = -0.25
-			civilian_intel_to_others = 15.0
-			army_intel_to_others = 10.0
-			navy_intel_to_others = 10.0
-			airforce_intel_to_others = 10.0
-			hidden_modifier = { join_faction_tension = -0.1 }
-		}
-		can_be_boosted = yes
-		ai_fascist = yes # uses the fascist AI behaviour
-	}
-
-	reformisten = {
-		types = {
-			reformisten_ideology = {
-				can_be_randomly_selected = no
-			}
-		}
-
-		dynamic_faction_names = {
-			"FACTION_NAME_FASCIST_1"
-			"FACTION_NAME_FASCIST_2"
-			"FACTION_NAME_FASCIST_3"
-			"FACTION_NAME_FASCIST_4"
-			"FACTION_NAME_FASCIST_5"
-		}
-
-		color = { 48 53 103 }
 
 		war_impact_on_world_tension = 1.0			#evil!
 		faction_impact_on_world_tension = 1.0
